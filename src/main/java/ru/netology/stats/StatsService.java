@@ -61,9 +61,9 @@ public class StatsService {
             if (sale < calculateAverageAtMonth(sales)) {
                 amount = amount + 1;
             }
-            }
+        }
         return amount;
-            }
+    }
 
     public int calculateAmountMonthHighAverage(int[] sales) {
         int amount = 0;
